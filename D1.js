@@ -16,9 +16,11 @@ Renato = 1;
 console.log(typeof Renato); //Renato è un numero (number). Questo è un tipo di dato numerico che può essere intero o decimale.
 Renato = true; //(Renato è un boolean). Un tipo di dato booleano e può essere solo "true" o "false"
 console.log(typeof Renato);
-Renato = undefined; //Renato è undefined (cancellazione involontaria). Segnala un errore quando qualcosa non è stato ben definito in una variabile a cui ho assegnato un valore.
+Renato = undefined; //Renato è undefined (cancellazione involontaria). Segnala un errore quando qualcosa non è stato ben definito in una variabile
+//  a cui ho assegnato un valore.
 console.log(typeof Renato);
-Renato = null; //Renato è null (cancellazione volontaria, ma JS è scemo e uscirà object nella console). Variabili che ho dichiarato ma a cui non ho ancora assegnato un valore.
+Renato = null; //Renato è null (cancellazione volontaria, ma JS è scemo e uscirà object nella console). Variabili che ho dichiarato ma a cui
+//  non ho ancora assegnato un valore.
 console.log(typeof Renato);
 
 /* ESERCIZIO 2
@@ -67,3 +69,6 @@ console.log(z);
 let name1 = "john";
 let name2 = "John";
 console.log(name1 === name2);
+//EXTRA:
+let same = name1.toLowerCase === name2.toLowerCase;
+console.log(same);
